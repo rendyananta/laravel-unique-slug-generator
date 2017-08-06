@@ -1,0 +1,18 @@
+{
+    "name": "rendyyangasli/laravel-unique-sluggable",
+    "description": "Packages to craete slug with laravel eloquent uniquely",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rendy Ananta",
+            "email": "rendy.ananta66@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "RendyYangAsli\\LaravelUniqueSlugGenerator\\": "src/"
+        }
+    }
+}

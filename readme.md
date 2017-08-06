@@ -1,0 +1,1 @@
+# Laravel Unique Slug Generator
