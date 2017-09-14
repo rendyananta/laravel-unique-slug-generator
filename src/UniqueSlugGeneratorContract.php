@@ -10,5 +10,5 @@ namespace RendyYangAsli\LaravelUniqueSlugGenerator;
 
 interface UniqueSlugGeneratorContract
 {
-
+	public function getSluggableValue ();
 }

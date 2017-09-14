@@ -55,10 +55,11 @@ class UniqueSlugGenerator
             $newSlug = $slug . '-' . $i;
 
             if (! $allSlugs->contains('slug', $newSlug)) {
-                return $newSlug;
+                break;   
             }
             $i++;
         }
+        return $newSlug;
     }
 
     /**
