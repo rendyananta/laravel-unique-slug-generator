@@ -16,5 +16,12 @@
         "psr-4": {
             "RendyYangAsli\\LaravelUniqueSlugGenerator\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "RendyYangAsli\\LaravelUniqueSlugGenerator\\Providers\\LaravelUniqueSlugGeneratorProvider"
+            ]
+        }
     }
 }
