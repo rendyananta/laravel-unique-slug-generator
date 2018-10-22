@@ -12,7 +12,7 @@ class UniqueSlugGenerator
 {
 
     /**
-     * fire event create slug when creating
+     * fire event create slug when creating by `model observe`
      *
      * @param UniqueSlugGeneratorContract $model
      */
@@ -22,7 +22,7 @@ class UniqueSlugGenerator
     }
 
     /**
-     * fire event create slug when updating
+     * fire event create slug when updating by `model observe`
      *
      * @param UniqueSlugGeneratorContract $model
      */
