@@ -5,10 +5,10 @@
  * Time: 6:03
  */
 
-namespace RendyYangAsli\LaravelUniqueSlugGenerator\Providers;
+namespace McHavens\LaravelUniqueSlugGenerator\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use RendyYangAsli\LaravelUniqueSlugGenerator\UniqueSlugGenerator;
+use McHavens\LaravelUniqueSlugGenerator\UniqueSlugGenerator;
 
 class LaravelUniqueSlugGeneratorProvider extends ServiceProvider
 {

@@ -1,5 +1,5 @@
 {
-    "name": "rendyyangasli/laravel-unique-sluggable",
+    "name": "machavens/laravel-unique-sluggable",
     "description": "Packages to craete slug with laravel eloquent uniquely",
     "license": "MIT",
     "authors": [
@@ -14,13 +14,13 @@
     },
     "autoload": {
         "psr-4": {
-            "RendyYangAsli\\LaravelUniqueSlugGenerator\\": "src/"
+            "McHavens\\LaravelUniqueSlugGenerator\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "RendyYangAsli\\LaravelUniqueSlugGenerator\\Providers\\LaravelUniqueSlugGeneratorProvider"
+                "McHavens\\LaravelUniqueSlugGenerator\\Providers\\LaravelUniqueSlugGeneratorProvider"
             ]
         }
     }
