@@ -1,6 +1,6 @@
 <?php
 
-namespace RendyYangAsli\LaravelUniqueSlugGenerator;
+namespace McHavens\LaravelUniqueSlugGenerator;
 
 /**
  * @author muhajirin <muhajirinlpu@gmail.com>

@@ -5,7 +5,7 @@
  * Time: 6:03
  */
 
-namespace RendyYangAsli\LaravelUniqueSlugGenerator;
+namespace McHavens\LaravelUniqueSlugGenerator;
 
 
 class UniqueSlugGenerator

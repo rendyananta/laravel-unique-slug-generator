@@ -2,7 +2,7 @@
 
 ## Installation
 ### Laravel >= 5.5 
-1. run `composer require rendyyangasli/laravel-unique-sluggable` on your projects
+1. run `composer require mchavens/laravel-unique-sluggable` on your projects
 2. run `php artisan package:discover`
 3. generate config fil using command `php artisan vendor:publish --tag=slug-config`
 
@@ -23,7 +23,7 @@
 ```
 #### Using model trait
 ```php
-use RendyYangAsli\LaravelUniqueSlugGenerator\UniqueSlugTrait;
+use McHavens\LaravelUniqueSlugGenerator\UniqueSlugTrait;
 
 class Post extends Model {
     use UniqueSlugTrait;
